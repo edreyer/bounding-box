@@ -24,3 +24,11 @@ state, which isn't ideal, but is performant.
 * If I had more time I'd follow functional programming tenets and make State immutable.
 * In that case I could probably safely parallelize the graph navigation and possibly 
 the bit where I find overlapping boxes.
+
+# Running
+From the root directory of the project, you can run something like the following:
+```
+> cat src/test/resources/test1.txt | ./gradlew run
+> echo $status
+```  
+

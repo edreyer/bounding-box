@@ -1,7 +1,7 @@
 /**
  * Main entry point of the app
  */
-fun main(args: Array<String>) {
+fun main() {
 
   val boxes = initializeState()
     .let { findBoundingBoxes(it) }
