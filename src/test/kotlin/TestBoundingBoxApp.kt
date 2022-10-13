@@ -1,10 +1,8 @@
 
-import com.github.stefanbirkner.systemlambda.SystemLambda.tapSystemOut
 import com.github.stefanbirkner.systemlambda.SystemLambda.tapSystemOutNormalized
 import com.github.stefanbirkner.systemlambda.SystemLambda.withTextFromSystemIn
 import org.junit.jupiter.api.Test
 import java.io.File
-import kotlin.test.assertContains
 import kotlin.test.assertEquals
 import kotlin.test.assertTrue
 
